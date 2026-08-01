@@ -16,3 +16,6 @@ boxplot(quakes$mag)
 boxplot.stats(quakes$mag)$out
 plot(quakes$depth,quakes$mag)
 plot(quakes)
+boxplot(quakes[,1:4],main='multiple')
+skewness(quakes$depth)
+kurtosis(quakes$depth)
